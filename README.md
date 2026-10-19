@@ -6,7 +6,7 @@ The animation is drawn in SVG and moved with CSS keyframes. It has no runtime de
 
 ![Frame-by-frame comparison: the original animation above, CarProgress below](docs/compare.gif)
 
-*The recording shows the frame-compare tool used to build this component. The original clip (top) and `CarProgress` (bottom) run on one clock, one frame at a time.*
+*The recording shows the frame-compare tool used to build this component. The original clip (top) and `CarProgress` (bottom) run on one clock, one frame at a time. Played at half speed.*
 
 ## Install
 
