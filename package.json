@@ -1,0 +1,40 @@
+{
+  "name": "car-progress",
+  "version": "0.1.0",
+  "description": "A car-themed progress indicator for React: an indeterminate loop and a determinate bar, in SVG and CSS.",
+  "license": "MIT",
+  "type": "module",
+  "repository": "github:allen546/car-progress",
+  "files": [
+    "dist",
+    "src/CarProgress.jsx",
+    "src/CarProgress.css",
+    "src/index.js"
+  ],
+  "main": "./dist/car-progress.cjs",
+  "module": "./dist/car-progress.js",
+  "exports": {
+    ".": {
+      "import": "./dist/car-progress.js",
+      "require": "./dist/car-progress.cjs"
+    },
+    "./style.css": "./dist/car-progress.css"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prepare": "vite build"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "5.4.11"
+  }
+}

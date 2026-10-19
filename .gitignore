@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+
+# Local-only demo and frame-compare pages, and the source clip (not published)
+index.html
+compare.html
+src/main.jsx
+src/compare.jsx
+src/demo.css
+src/compare.css
+public/
+*.mp4
